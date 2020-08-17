@@ -1,4 +1,4 @@
-package json.write.gson.Employee;
+package Employee;
 
 public class Role {
 
@@ -11,6 +11,14 @@ public class Role {
 
     public void setJob_title(String job_title) {
         this.job_title = job_title;
+    }
+
+    public String getJob_role() {
+        return job_role;
+    }
+
+    public String getJob_title() {
+        return job_title;
     }
 
 }

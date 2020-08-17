@@ -1,11 +1,11 @@
 package json.write.gson;
 
+import Employee.Employee;
 import com.codoid.products.exception.FilloException;
 import com.codoid.products.fillo.Connection;
 import com.codoid.products.fillo.Fillo;
 import com.codoid.products.fillo.Recordset;
 import com.google.gson.Gson;
-import json.write.gson.Employee.Employee;
 
 import java.io.FileWriter;
 import java.io.IOException;

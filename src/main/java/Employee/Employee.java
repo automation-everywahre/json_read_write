@@ -1,4 +1,5 @@
-package json.write.gson.Employee;
+package Employee;
+
 
 public class Employee {
 
@@ -26,6 +27,18 @@ public class Employee {
 
     public Employee_Demographic getEmployee_demographic() {
         return this.employee_demographic;
+    }
+
+    public String getEmployee_lname() {
+        return employee_lname;
+    }
+
+    public String getEmployee_fname() {
+        return employee_fname;
+    }
+
+    public int getEmployee_id() {
+        return employee_id;
     }
 
 }
